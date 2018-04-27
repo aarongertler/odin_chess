@@ -1,8 +1,7 @@
 # Next steps:
 
-# Set up piece class in its own file, link to the game class correctly
 
-
+require_relative 'pieces'
 
 class Game
 	Player = Struct.new(:name, :color)
